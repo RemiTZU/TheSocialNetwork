@@ -560,7 +560,7 @@ ALTER TABLE `notification`
   ADD CONSTRAINT `notification_ibfk_6` FOREIGN KEY (`id_like_comment`) REFERENCES `likedcomment` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Contraintes pour la table `post`
+-- Contraintes pour la table de`post` 
 --
 ALTER TABLE `post`
   ADD CONSTRAINT `post_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
